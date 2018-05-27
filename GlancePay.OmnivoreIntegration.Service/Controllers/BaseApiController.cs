@@ -6,7 +6,7 @@ using Unity.Attributes;
 
 using GlancePay.OmnivoreIntegration.Logging;
 
-namespace GlancePay.OmnivoreIntegration.UI.Controllers
+namespace GlancePay.OmnivoreIntegration.Service.Controllers
 {
     public class BaseApiController : ApiController
     {

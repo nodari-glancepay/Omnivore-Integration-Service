@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace GlancePay.OmnivoreIntegration.UI
+namespace GlancePay.OmnivoreIntegration.Service
 {
     public interface IPaymentWorker
     {

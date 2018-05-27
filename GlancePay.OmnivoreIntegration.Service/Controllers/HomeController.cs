@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace GlancePay.OmnivoreIntegration.UI.Controllers
+namespace GlancePay.OmnivoreIntegration.Service.Controllers
 {
     public class HomeController : Controller
     {

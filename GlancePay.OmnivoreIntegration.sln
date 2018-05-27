@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlancePay.OmnivoreIntegrati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlancePay.OmnivoreIntegration.ExceptionHandling", "GlancePay.OmnivoreIntegration.ExceptionHandling\GlancePay.OmnivoreIntegration.ExceptionHandling.csproj", "{3D324A73-3910-4D45-923A-42FF1981AD1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlancePay.OmnivoreIntegration.UI", "GlancePay.OmnivoreIntegration.UI\GlancePay.OmnivoreIntegration.UI.csproj", "{891E880A-CEF4-45B7-8023-9F8BEE9F61A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlancePay.OmnivoreIntegration.Service", "GlancePay.OmnivoreIntegration.Service\GlancePay.OmnivoreIntegration.Service.csproj", "{891E880A-CEF4-45B7-8023-9F8BEE9F61A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

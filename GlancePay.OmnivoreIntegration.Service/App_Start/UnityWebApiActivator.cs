@@ -2,10 +2,10 @@ using System.Web.Http;
 
 using Unity.AspNet.WebApi;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(GlancePay.OmnivoreIntegration.UI.UnityWebApiActivator), nameof(GlancePay.OmnivoreIntegration.UI.UnityWebApiActivator.Start))]
-[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(GlancePay.OmnivoreIntegration.UI.UnityWebApiActivator), nameof(GlancePay.OmnivoreIntegration.UI.UnityWebApiActivator.Shutdown))]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(GlancePay.OmnivoreIntegration.Service.UnityWebApiActivator), nameof(GlancePay.OmnivoreIntegration.Service.UnityWebApiActivator.Start))]
+[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(GlancePay.OmnivoreIntegration.Service.UnityWebApiActivator), nameof(GlancePay.OmnivoreIntegration.Service.UnityWebApiActivator.Shutdown))]
 
-namespace GlancePay.OmnivoreIntegration.UI
+namespace GlancePay.OmnivoreIntegration.Service
 {
     /// <summary>
     /// Provides the bootstrapping for integrating Unity with WebApi when it is hosted in ASP.NET.

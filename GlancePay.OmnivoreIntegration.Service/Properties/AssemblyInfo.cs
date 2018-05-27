@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GlancePay.OmnivoreIntegration.UI")]
+[assembly: AssemblyTitle("GlancePay.OmnivoreIntegration.Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("GlancePay.OmnivoreIntegration.UI")]
+[assembly: AssemblyCompany("Glance Pay")]
+[assembly: AssemblyProduct("GlancePay.OmnivoreIntegration.Service")]
 [assembly: AssemblyCopyright("Copyright © GlancePay 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

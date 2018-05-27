@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using GlancePay.OmnivoreIntegration.UI.Controllers;
+using GlancePay.OmnivoreIntegration.Service.Controllers;
 
 namespace GlancePay.OmnivoreIntegration.Tests.Controllers
 {

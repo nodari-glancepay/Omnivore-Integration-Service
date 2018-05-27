@@ -4,10 +4,10 @@ using Unity.Attributes;
 
 using GlancePay.OmnivoreIntegration.Dto;
 using GlancePay.OmnivoreIntegration.Logging;
-using GlancePay.OmnivoreIntegration.UI.Repository;
+using GlancePay.OmnivoreIntegration.Service.Repository;
 using GlancePay.OmnivoreIntegration.ExceptionHandling;
 
-namespace GlancePay.OmnivoreIntegration.UI.Controllers
+namespace GlancePay.OmnivoreIntegration.Service.Controllers
 {
     public class PaymentWorker : IPaymentWorker
     {

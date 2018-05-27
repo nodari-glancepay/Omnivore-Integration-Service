@@ -3,7 +3,7 @@ using System.Web.Http.Filters;
 
 using GlancePay.OmnivoreIntegration.ExceptionHandling;
 
-namespace GlancePay.OmnivoreIntegration.UI.Filters
+namespace GlancePay.OmnivoreIntegration.Service.Filters
 {
     public class ApiExceptionFilterAttribute : ExceptionFilterAttribute
     {

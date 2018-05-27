@@ -2,7 +2,7 @@
 
 using GlancePay.OmnivoreIntegration.Dto;
 
-namespace GlancePay.OmnivoreIntegration.UI.Repository
+namespace GlancePay.OmnivoreIntegration.Service.Repository
 {
     public interface ITicketRepository
     {

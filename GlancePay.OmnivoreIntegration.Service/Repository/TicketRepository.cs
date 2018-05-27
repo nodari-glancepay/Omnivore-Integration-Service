@@ -4,7 +4,7 @@ using GlancePay.OmnivoreIntegration.Communicator;
 using GlancePay.OmnivoreIntegration.Dto;
 using GlancePay.OmnivoreIntegration.Logging;
 
-namespace GlancePay.OmnivoreIntegration.UI.Repository
+namespace GlancePay.OmnivoreIntegration.Service.Repository
 {
     public class TicketRepository : ITicketRepository
     {

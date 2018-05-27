@@ -114,9 +114,9 @@
       <Project>{c47b5162-9a79-4969-8032-eb8e9cf664fd}</Project>
       <Name>GlancePay.OmnivoreIntegration.Logging</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GlancePay.OmnivoreIntegration.UI\GlancePay.OmnivoreIntegration.UI.csproj">
+    <ProjectReference Include="..\GlancePay.OmnivoreIntegration.Service\GlancePay.OmnivoreIntegration.Service.csproj">
       <Project>{891e880a-cef4-45b7-8023-9f8bee9f61a6}</Project>
-      <Name>GlancePay.OmnivoreIntegration.UI</Name>
+      <Name>GlancePay.OmnivoreIntegration.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

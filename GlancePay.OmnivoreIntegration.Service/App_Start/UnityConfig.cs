@@ -2,11 +2,11 @@ using System;
 
 using Unity;
 
-using GlancePay.OmnivoreIntegration.UI.Repository;
+using GlancePay.OmnivoreIntegration.Service.Repository;
 using GlancePay.OmnivoreIntegration.Logging;
-using GlancePay.OmnivoreIntegration.UI.Controllers;
+using GlancePay.OmnivoreIntegration.Service.Controllers;
 
-namespace GlancePay.OmnivoreIntegration.UI
+namespace GlancePay.OmnivoreIntegration.Service
 {
     /// <summary>
     /// Specifies the Unity configuration for the main container.

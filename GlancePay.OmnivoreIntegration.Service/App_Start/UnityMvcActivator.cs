@@ -3,10 +3,10 @@ using System.Web.Mvc;
 
 using Unity.AspNet.Mvc;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(GlancePay.OmnivoreIntegration.UI.UnityMvcActivator), nameof(GlancePay.OmnivoreIntegration.UI.UnityMvcActivator.Start))]
-[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(GlancePay.OmnivoreIntegration.UI.UnityMvcActivator), nameof(GlancePay.OmnivoreIntegration.UI.UnityMvcActivator.Shutdown))]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(GlancePay.OmnivoreIntegration.Service.UnityMvcActivator), nameof(GlancePay.OmnivoreIntegration.Service.UnityMvcActivator.Start))]
+[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(GlancePay.OmnivoreIntegration.Service.UnityMvcActivator), nameof(GlancePay.OmnivoreIntegration.Service.UnityMvcActivator.Shutdown))]
 
-namespace GlancePay.OmnivoreIntegration.UI
+namespace GlancePay.OmnivoreIntegration.Service
 {
     /// <summary>
     /// Provides the bootstrapping for integrating Unity with ASP.NET MVC.

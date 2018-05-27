@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace GlancePay.OmnivoreIntegration.UI
+namespace GlancePay.OmnivoreIntegration.Service
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

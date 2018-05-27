@@ -7,7 +7,7 @@ using System.Web.Http;
 using GlancePay.OmnivoreIntegration.Business;
 using GlancePay.OmnivoreIntegration.ExceptionHandling;
 
-namespace GlancePay.OmnivoreIntegration.UI.Controllers
+namespace GlancePay.OmnivoreIntegration.Service.Controllers
 {
     [RoutePrefix("api")]
     public class TicketController : BaseApiController

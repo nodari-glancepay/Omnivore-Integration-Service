@@ -1,8 +1,8 @@
 ﻿using System.Web.Http;
 
-using GlancePay.OmnivoreIntegration.UI.Filters;
+using GlancePay.OmnivoreIntegration.Service.Filters;
 
-namespace GlancePay.OmnivoreIntegration.UI
+namespace GlancePay.OmnivoreIntegration.Service
 {
     public static class WebApiConfig
     {
