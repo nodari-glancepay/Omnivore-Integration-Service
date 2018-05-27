@@ -17,16 +17,6 @@ namespace GlancePay.OmnivoreIntegration.UI.Controllers
         public TicketController(IPaymentWorker paymentWorker) : base()
         {
             this.paymentWorker = paymentWorker;
-
-            AppDomain appDomain = AppDomain.CurrentDomain;
-            appDomain.UnhandledException += AppDomain_UnhandledException;
-        }
-
-        private void AppDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
-        {
-            object o = sender;
-            object ex = e.ExceptionObject;
-            bool end = e.IsTerminating;
         }
 
         [Route("payment")]
