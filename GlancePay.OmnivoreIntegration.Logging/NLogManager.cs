@@ -6,10 +6,10 @@ namespace GlancePay.OmnivoreIntegration.Logging
 {
     public class NLogManager : INLogManager
     {
-        private static readonly Logger FileGeneralLogger = LogManager.GetCurrentClassLogger();
-
+        private static Logger FileGeneralLogger;
         static NLogManager()
         {
+            LogManager.AddHiddenAssembly(typeof(NLogManager).Assembly);
             FileGeneralLogger = LogManager.GetLogger("fileGeneralLogger");
         }
 

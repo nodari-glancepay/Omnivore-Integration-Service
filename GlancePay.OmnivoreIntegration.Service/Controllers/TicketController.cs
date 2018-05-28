@@ -26,7 +26,7 @@ namespace GlancePay.OmnivoreIntegration.Service.Controllers
             if (!ModelState.IsValid)
             {
                 string errorMessage = ModelState.FirstErrorMessage();
-                Logger.LogWarn(string.Format("{0} Transaction ID: {1}", errorMessage, paymentRequest.TransactionID));
+                Logger.LogError(string.Format("{0} Transaction ID: {1}", errorMessage, paymentRequest.TransactionID));
                 throw new BadRequestException(errorMessage.ToCombinedErrorMessage(paymentRequest.TransactionID));
             }
 
