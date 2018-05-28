@@ -18,7 +18,7 @@ namespace GlancePay.OmnivoreIntegration.Service.Repository
             {
                 Logger = nLogManager
             };
-            logger.LogDebug("RestSharpCommunicator created.");
+            if (logger != null) logger.LogDebug("RestSharpCommunicator created.");
         }
 
         public async Task<GSPRPaymentCallback> AddPaymentAsync(string locationIdentifier, long transactionId, 
